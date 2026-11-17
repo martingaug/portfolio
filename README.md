@@ -1,0 +1,1 @@
+Portfolio bilingue Martin / LMRT. Ouvrir index.html. Pour GitHub Pages, envoyer tous les fichiers et le dossier assets à la racine du dépôt, puis activer Settings > Pages > main > / (root). Le CV, les photos et les vidéos sont inclus. Les contenus sont dans app.js, enhancements.js et media-contact.js.
