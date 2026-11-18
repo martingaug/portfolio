@@ -3,6 +3,9 @@ galleries['Studio sessions']=['WhatsApp Image 2026-11-17 at 14.53.18.jpeg','What
 const labelProject=projects.find(p=>p.name==='UnluckyBoysConsecrations');
 labelProject.text=['J’ai fondé UnluckyBoysConsecrations, un label indépendant qui réunit les artistes Maitrecorbeau, Ephee, 9misa et Belamy. Un espace pour accompagner leurs projets et développer leurs univers musicaux.','I founded UnluckyBoysConsecrations, an independent label bringing together Maitrecorbeau, Ephee, 9misa and Belamy. A space to support their projects and develop their musical worlds.'];
 labelProject.links=[['Maitrecorbeau · Spotify','https://open.spotify.com/artist/6FqdkyYVCgDgUapvwBF2gv'],['Spotify · Artiste du label / Label artist','https://open.spotify.com/artist/2tHnqbEwUTgMIHmSfsuklc']];
+labelProject.links.unshift(['Instagram @unluckyboysconsecrations','https://www.instagram.com/unluckyboysconsecrations/?hl=fr']);
+const maitrecorbeauProject = projects.find(project => project.name === 'Maitrecorbeau');
+maitrecorbeauProject.links.unshift(['Instagram @maitrecorbeau_','https://www.instagram.com/maitrecorbeau_/?hl=fr']);
 const mediaOpen=openProject;
 openProject=function(p){mediaOpen(p);if(p.name==='Studio sessions'){
  const videos=document.createElement('div');videos.className='studio-videos';
